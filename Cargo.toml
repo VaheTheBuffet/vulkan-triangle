@@ -1,0 +1,10 @@
+[package]
+name = "vk_engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+glfw = "0.61.0"
+obj = "0.10.2"
+stb_image_rust = "2.27.2"
+vulkan = { version = "0.1.0", path = "deps/vulkan" }
